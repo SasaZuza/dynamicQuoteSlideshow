@@ -1,0 +1,70 @@
+
+body {
+  background: black;
+  overflow-x: hidden;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/* Quote grid */
+
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.owl-item {
+  float: left;
+}
+
+.services-block .separator {
+  font-size: 20px;
+  line-height: 22px;
+  color: black;
+}
+
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 14px;
+  font-style: italic;
+  color: rgb(0, 89, 255); 
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: block;
+}
+
+.services-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.services-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.services-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  border: 0;
+  padding: 0 !important;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.services-carousel .owl-dot.active {
+  background-color: #b8a07e;
+}
+
+.services-carousel {
+  padding-top: 30px;
+}
+
+.owl-nav {
+  display: none;
+}
